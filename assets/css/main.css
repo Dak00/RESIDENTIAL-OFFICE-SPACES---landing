@@ -32,7 +32,7 @@ header{
 .nav-item{
     font-weight: 700;
 }
-.block-h{
+/* .block-h{
     display: flex;
     justify-content: center;
     padding-top: 6%;
@@ -50,4 +50,44 @@ header{
 }
 .block-2 img{
     width: 66%;
+} */
+
+.block-h{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-top: 8%;
+    align-items: stretch;
+}
+.block-1 h1{
+width: 64%;
+    font-weight: 800;
+    font-size: 48.3889px;
+    line-height: 51px;
+    color: #000000;
+}
+.block-1 h4{
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.72766px;
+    line-height: 43px;
+    color: #FF9900;
+}
+.block-1 p{
+    font-weight: 400;
+    font-size: 15.83064px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #31353B;
+    width: 64%;
+}
+/* .block-2 */ .block-1 img{ 
+    position: relative;
+    /* width: 86%; */
+    width: 92%;
+    height: 91%;
 }
